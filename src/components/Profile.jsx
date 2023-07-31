@@ -23,7 +23,7 @@ const Profile = () => {
   }];
 
   return (
-    <section className='min-h-screen flex flex-col justify-start items-start'>
+    <section className='min-h-screen flex flex-col justify-start items-center p-5 text-center'>
       <h2>Jerry Fitzner</h2>
       <h3>Software Engineer</h3>
       <p>With a background in technical problem-solving, I collaborate well on a team, communicate clearly, and remain calm in chaotic situations. I learn from failure, thrive on feedback, and am self-driven. My love of software development stems from the challenges it brings to create accessible and easy to use software for all.</p>
