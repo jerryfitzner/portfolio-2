@@ -12,7 +12,13 @@ const Projects = () => {
       imgsrc: ICAPic,
       alt: 'Incident Command Project Photo',
       code: 'https://github.com/jerryfitzner/incident-command',
-      demo: 'https://youtu.be/A_xAV2Jx0zs'
+      demo: 'https://youtu.be/A_xAV2Jx0zs',
+      bullets: [
+        'Implemented encrypted password storage through the ‘bcrypt’ gem in rails.',
+        'Maintained state utilizing Redux.',
+        'Developed a full stack application utilizing REACT on the front end and Rails on the backend.',
+        'Utilized Rails to create a functioning API with custom and RESTful routes.'
+      ],
     },
     {
       id: 1,
@@ -20,7 +26,12 @@ const Projects = () => {
       imgsrc: SFPic,
       alt: 'Student Fundraising Project Photo',
       code: 'https://github.com/jerryfitzner/phase-3-project-frontend',
-      demo: 'https://youtu.be/kVg8fz3EWW8'
+      demo: 'https://youtu.be/kVg8fz3EWW8',
+      bullets: [
+        'Utilized REACT with Sinatra to build a full stack web-based application.',
+        'Created custom routes to implement full C.R.U.D. on the backend.',
+        'Implemented state to maintain various functionality of the application.'
+      ],
     },
   ]
 
@@ -31,10 +42,10 @@ const Projects = () => {
   }
 
   return (
-    <div name='projects' className='w-full md:h-screen'>
+    <div name='projects' className='w-full'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
+          <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
         {projects.map(({id, name, alt, imgsrc, code, demo}) => (
