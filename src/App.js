@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <main className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
         <Profile />
+        <Projects />
       </main>
     </div>
   );
