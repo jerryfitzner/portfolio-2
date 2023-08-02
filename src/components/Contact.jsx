@@ -30,7 +30,7 @@ const Contact = () => {
               >
               
               </textarea>
-              <button className='px-6 py-3 my-8 border-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Send</button>
+              <button className='px-6 py-3 my-8 border-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300  hover:text-rose-600 hover:border-rose-600'>Send</button>
           </form>
         </div>
       </div>

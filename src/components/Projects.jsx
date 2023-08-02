@@ -52,8 +52,8 @@ const Projects = () => {
           <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={imgsrc} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
             <div className='flex items-center justify-center'>
-              <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md'>Demo</button>
-              <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md'>Code</button>
+              <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Demo</button>
+              <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Code</button>
             </div>
           </div>
         ))}
