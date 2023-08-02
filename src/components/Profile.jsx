@@ -23,7 +23,7 @@ const Profile = () => {
   }];
 
   return (
-    <section name='home' className='max-w-screen-lg mx-auto flex flex-col items-center justify center h-full p-4 md:flex-row'>
+    <section name='home' className='max-w-screen-lg mx-auto flex flex-col items-center justify center p-4 md:flex-row h-screen'>
 
       <div className='flex flex-col justify-center h-full'>
         <h2 className='text-5xl text-rose-600 uppercase font-bold'>Jerry Fitzner</h2>
