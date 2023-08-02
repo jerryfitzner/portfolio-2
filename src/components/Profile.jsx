@@ -23,19 +23,19 @@ const Profile = () => {
   }];
 
   return (
-    <section name='home' className='max-w-screen-lg mx-auto flex flex-col items-center justify center p-4 md:flex-row h-screen'>
+    <section name='home' className='max-w-screen-lg mx-auto flex flex-col items-center justify-center p-4 md:flex-row py-[14%]'>
 
-      <div className='flex flex-col justify-center h-full'>
+      <div className='flex flex-col justify-center content-center h-full'>
         <h2 className='text-5xl text-rose-600 uppercase font-bold'>Jerry Fitzner</h2>
         <h3 className='py-3 text-2xl'>Software Engineer</h3>
-        <p className='max-w-xl font-light text-gray-500'>With a background in technical problem-solving, I collaborate well on a team, communicate clearly, and remain calm in chaotic situations. I learn from failure, thrive on feedback, and am self-driven. My love of software development stems from the challenges it brings to create accessible and easy to use software for all.</p>
+        <p className='max-w-xl font-light text-gray-500 pb-6'>With a background in technical problem-solving, I collaborate well on a team, communicate clearly, and remain calm in chaotic situations. I learn from failure, thrive on feedback, and am self-driven. My love of software development stems from the challenges it brings to create accessible and easy to use software for all.</p>
       </div>
 
       <div className='flex flex-col justify-center items-center h-full'>
         <img 
           src={ProfilePic} 
           alt="Profile" 
-          className='rounded-2xl mx-auto w-full md:w-2/3'
+          className='rounded-2xl mx-auto w-5/6 md:w-2/3'
         />
         <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
           {links.map(({id, title, icon, url}) => (

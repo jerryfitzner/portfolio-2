@@ -42,7 +42,7 @@ const Projects = () => {
   }
 
   return (
-    <div name='projects' className='w-full h-screen'>
+    <div name='projects' className='w-full justify-center p-5 py-[14%]'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
@@ -52,8 +52,8 @@ const Projects = () => {
           <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={imgsrc} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
             <div className='flex items-center justify-center'>
-              <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-              <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+              <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md'>Demo</button>
+              <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md'>Code</button>
             </div>
           </div>
         ))}
