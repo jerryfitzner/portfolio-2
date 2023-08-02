@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Profile />
         <Projects />
         <Experience />
+        <Contact />
       </main>
     </div>
   );

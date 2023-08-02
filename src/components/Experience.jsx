@@ -60,12 +60,12 @@ const Experience = () => {
       name: 'TailWind CSS',
       alt: '',
       link: 'https://tailwindcss.com/',
-      color: 'hover:text-tailwind',
+      color: 'sm:hover:text-tailwind',
     }
   ];
 
   return (
-    <div name='experience' className='w-full '>
+    <div name='experience' className='w-full'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline p-2 border-b-4 border-gray-500'>Experience</p>
