@@ -50,7 +50,7 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
         {projects.map(({id, name, alt, imgsrc, code, demo}) => (
           <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-            <img src={imgsrc} alt={alt} className='rounded-md duration-200 hover:scale-105'/>
+            <img src={imgsrc} alt={alt} className='rounded-lg duration-200 hover:scale-105  w-full sm:h-[72%] md:h-[76%] h-fit'/>
             <div className='flex items-center justify-center'>
               <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Demo</button>
               <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Code</button>
