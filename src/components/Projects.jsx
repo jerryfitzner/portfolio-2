@@ -42,12 +42,12 @@ const Projects = () => {
   }
 
   return (
-    <div name='projects' className='w-full justify-center p-5 py-[14%]'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
+    <div name='projects' className='w-full justify-center p-5 items-center '>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 items-center justify-center'>
         {projects.map(({id, name, alt, imgsrc, code, demo}) => (
           <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={imgsrc} alt={alt} className='rounded-lg duration-200 hover:scale-105  '/>
