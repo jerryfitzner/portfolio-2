@@ -77,7 +77,7 @@ const Experience = () => {
                 href={link} 
                 target='_blank'
                 rel='noopener noreferrer' 
-                className='w-20 mx-auto text-7xl'>
+                className='flex justify-center w-20 mx-auto text-7xl pb-3'>
                   {logo}
               </a>
               <p>{name}</p>
