@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillArrowUpSquareFill, BsFillArrowDownSquareFill } from 'react-icons/bs';
+import { BsFillArrowUpSquareFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Scroll = () => {

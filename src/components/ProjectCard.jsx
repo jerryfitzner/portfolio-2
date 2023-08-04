@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineRightSquare } from 'react-icons/ai';
+
 
 const ProjectCard = ({id, name, alt, imgsrc, code, demo, bullets}) => {
   const [detailWindow, setDetailWindow] = useState(false);
@@ -8,7 +8,7 @@ const ProjectCard = ({id, name, alt, imgsrc, code, demo, bullets}) => {
     window.open(link, '_blank', 'noreferrer')
   };
 
-  const square = <AiOutlineRightSquare />;
+  
 
 
 
