@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SFPic from '../assets/SF.coverimage.png';
 import ICAPic from '../assets/ICA.coverimage.png';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   // const [numOfProj, setNumOfProj] = useState(0);
-  const [detailWin, setDetailWin] = useState(false);
+  
 
   const projects = [
     {
@@ -38,9 +39,7 @@ const Projects = () => {
 
   // const num 
 
-  const linkClick = (link) => {
-    window.open(link, '_blank', 'noreferrer')
-  }
+  
 
   return (
     <div name='projects' className='w-full justify-center p-5 items-center '>
@@ -49,14 +48,8 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 items-center justify-center'>
-        {projects.map(({id, name, alt, imgsrc, code, demo}) => (
-          <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-            <img src={imgsrc} alt={alt} className='rounded-lg duration-200 hover:scale-105  '/>
-            <div className='flex items-center justify-center'>
-              <button onClick={() => linkClick(demo)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Demo</button>
-              <button onClick={() => linkClick(code)} href={code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border rounded-md  hover:text-rose-600 hover:border-rose-600'>Code</button>
-            </div>
-          </div>
+        {projects.map(({id, name, alt, imgsrc, code, demo, bullets}) => (
+          <ProjectCard key={id} id={id} name={name} alt={alt} imgsrc={imgsrc} code={code} demo={demo} bullets={bullets} />
         ))}
         </div>
       </div>
