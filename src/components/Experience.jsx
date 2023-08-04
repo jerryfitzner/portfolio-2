@@ -7,6 +7,7 @@ const Experience = () => {
 
   const experienceLogos = [
     {
+      id: 1,
       logo: <BiLogoHtml5 />,
       name: 'HTML',
       alt: '',
@@ -14,6 +15,7 @@ const Experience = () => {
       color: 'hover:text-html',
     },
     {
+      id: 2,
       logo: <BiLogoJavascript />,
       name: 'JavaScript',
       alt: '',
@@ -21,6 +23,7 @@ const Experience = () => {
       color: 'hover:text-javascript',
     },
     {
+      id: 3,
       logo: <BiLogoReact />,
       name: 'React',
       alt: '',
@@ -28,6 +31,7 @@ const Experience = () => {
       color: 'hover:text-react',
     },
     {
+      id: 4,
       logo: <BiLogoNodejs />,
       name: 'Node.js',
       alt: '',
@@ -35,6 +39,7 @@ const Experience = () => {
       color: 'hover:text-node',
     },
     {
+      id: 5,
       logo: <SiRubyonrails />,
       name: 'Rails',
       alt: '',
@@ -42,6 +47,7 @@ const Experience = () => {
       color: 'hover:text-rails',
     },
     {
+      id: 6,
       logo: <DiRuby />,
       name: 'Ruby',
       alt: '',
@@ -49,6 +55,7 @@ const Experience = () => {
       color: 'hover:text-ruby',
     },
     {
+      id: 7,
       logo: <BiLogoCss3 />,
       name: 'CSS 3',
       alt: '',
@@ -56,6 +63,7 @@ const Experience = () => {
       color: 'hover:text-css',
     },
     {
+      id: 8,
       logo: <BiLogoTailwindCss />,
       name: 'TailWind CSS',
       alt: '',
@@ -71,8 +79,8 @@ const Experience = () => {
           <p className='text-4xl font-bold inline p-2 border-b-4 border-gray-500 '>Experience</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-          {experienceLogos.map(({logo, name, alt, link, color}) => (
-            <div className={`shadow-md hover:scale-105  py-2 rounded-lg cursor-pointer duration-300 ${color} dark:shadow-white dark:shadow-sm`}>
+          {experienceLogos.map(({logo, name, id, alt, link, color}) => (
+            <div key={id} className={`shadow-md hover:scale-105  py-2 rounded-lg cursor-pointer duration-300 ${color} dark:shadow-white dark:shadow-sm`}>
               <a 
                 href={link} 
                 target='_blank'

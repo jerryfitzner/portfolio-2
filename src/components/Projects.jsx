@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SFPic from '../assets/SF.coverimage.png';
 import ICAPic from '../assets/ICA.coverimage.png';
 
 const Projects = () => {
   // const [numOfProj, setNumOfProj] = useState(0);
+  const [detailWin, setDetailWin] = useState(false);
 
   const projects = [
     {

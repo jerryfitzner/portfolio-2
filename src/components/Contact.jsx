@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+import { AiOutlineLinkedin } from 'react-icons/ai';
 
 const Contact = () => {
   return (
