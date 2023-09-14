@@ -10,7 +10,7 @@ const Contact = () => {
           
         </div>
         <div className='flex flex-col md:flex-row justify-center'>
-          <div className='flex justify-center items-center mx-auto w-1/2'>
+          {/* <div className='flex justify-center items-center mx-auto w-1/2'>
             <form action="https://getform.io/f/6470ac1d-7bed-4d03-a10e-a5ca422e7487" method='POST' className='flex flex-col w-full'>
             <p className='py-6 text-center font-light text-lg'>Please feel free to send me a message! </p>
               <input 
@@ -35,7 +35,7 @@ const Contact = () => {
                 </textarea>
                 <button className='px-6 py-3 my-8 border-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300  hover:text-rose-600 hover:border-rose-600'>Send</button>
             </form>
-          </div>
+          </div> */}
           <div className='flex flex-col justify-center items-center mx-auto w-1/2 '>
             <a
             href='https://www.linkedin.com/in/jerryfitzner/'
