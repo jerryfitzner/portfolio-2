@@ -15,6 +15,9 @@ module.exports = {
         'ruby': '#C60200',
         'css': '#28A4D9',
         'tailwind': '#4BACB0',
+        'comptia': '#E22526',
+        'itil': '#8E63E5',
+        'linux': '#138BCC'
       },
     },
     // colors: {

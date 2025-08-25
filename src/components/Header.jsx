@@ -15,14 +15,18 @@ const Header = ({darkMode, setDarkMode}) => {
     },
     {
       id: 2,
-      link: 'projects'
+      link: 'certifications'
     },
     {
       id: 3,
-      link: 'skills'
+      link: 'projects'
     },
     {
       id: 4,
+      link: 'skills'
+    },
+    {
+      id: 5,
       link: 'contact'
     },
   ];
