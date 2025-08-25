@@ -76,7 +76,7 @@ const Skills = () => {
     <div name='skills' className='w-full items-center'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline p-2 border-b-4 border-gray-500 '>Skills</p>
+          <p className='text-4xl font-bold inline p-2 border-b-4 border-gray-500 '>Software Skills</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
           {experienceLogos.map(({logo, name, id, alt, link, color}) => (

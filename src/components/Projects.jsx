@@ -45,7 +45,7 @@ const Projects = () => {
     <div name='projects' className='w-full justify-center p-5 items-center '>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
+          <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Software Projects</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 items-center justify-center'>
         {projects.map(({id, name, alt, imgsrc, code, demo, bullets}) => (
