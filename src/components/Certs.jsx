@@ -47,7 +47,7 @@ const Certs = () => {
                 target='_blank'
                 rel='noopener noreferrer' 
                 className='flex justify-center w-20 mx-auto text-7xl pb-3'>
-                  <img src={logo} />
+                  <img alt={alt} src={logo} />
               </a>
               <p>{name}</p>
             </div>
