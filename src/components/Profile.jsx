@@ -28,8 +28,8 @@ const Profile = () => {
 
       <div className='flex flex-col justify-center md:h-full'>
         <h2 className='text-5xl text-rose-600 uppercase font-bold'>Jerry Fitzner</h2>
-        <h3 className='py-3 text-2xl'>Software Engineer</h3>
-        <p className='max-w-xl font-light text-gray-500 pb-6'>With a background in technical problem-solving, I collaborate well on a team, communicate clearly, and remain calm in chaotic situations. I learn from failure, thrive on feedback, and am self-driven. My love of software development stems from the challenges it brings to create accessible and easy to use software for all.</p>
+        <h3 className='py-3 text-2xl'>IT Networking <br/> Software <br/> Volunteer</h3>
+        <p className='max-w-xl font-light text-gray-500 pb-6'>Proficient in technology, with a strong background in IT/Web Support, software programming, and team leadership. Combining technical skills with experience in law enforcement to excel in teamwork, clear communication, and composure in chaotic environments. Embracing failure as an opportunity for growth, while valuing feedback for self-improvement. Desiring to enhance others' experiences through passion for technology and overcoming its challenges.</p>
       </div>
 
       <div className='flex flex-col justify-center md:h-full'>
