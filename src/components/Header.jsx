@@ -34,23 +34,25 @@ const Header = ({darkMode, setDarkMode}) => {
   return (
     <header name='header' className=' bg-white dark:bg-gray-900 text-gray-900 dark:text-white'>
       <nav className='flex justify-between items-center p-5'>
-        <h1 className='text-lg'>Jerry Fitzner</h1>
-        <ul className='hidden md:flex'>
-          {links.map(({ id, link }) => (
-            <li
-              key={id}
-              className='px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200'
-            >
-              <Link to={link} smooth duration={500}>{link}</Link>
-            </li>
-          ))}
-        </ul>
+        {/* <h1 className='text-lg'>Jerry Fitzner</h1> */}
         <div onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
               <MdWbSunny className='text-2xl cursor-pointer'/>
             ):(
               <MdNightsStay className='text-2xl cursor-pointer'/>
           )}
+        </div>
+        <div className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'>
+          <ul className='hidden md:flex'>
+            {links.map(({ id, link }) => (
+              <li
+                key={id}
+                className='px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200'
+              >
+                <Link to={link} smooth duration={500}>{link}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
         <div
           onClick={() => setNav(!nav)}

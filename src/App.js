@@ -10,7 +10,7 @@ import Certs from "./components/Certs";
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode && "dark"}>
