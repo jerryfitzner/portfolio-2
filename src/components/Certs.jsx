@@ -2,6 +2,7 @@ import React from 'react';
 import ITILPIC from '../assets/ITIL4Foundation.png';
 import LinPic from '../assets/linux-essentials-certificate.png';
 import CompAPic from '../assets/comptiaA.png';
+import CCNAPic from '../assets/ccna.png';
 
 
 const Certs = () => {
@@ -9,6 +10,14 @@ const Certs = () => {
   const certItems = [
     {
       id: 1,
+      logo: CCNAPic,
+      name: 'CCNA',
+      alt: 'Cisco Certified Network Associate',
+      link: 'https://www.credly.com/badges/a962597f-0c73-4988-b865-4a99c0f4c8c9/public_url',
+      color: 'hover:text-ccna',
+    },
+    {
+      id: 2,
       logo: CompAPic,
       name: 'CompTIA A+',
       alt: 'CompTIA A+',
@@ -16,7 +25,7 @@ const Certs = () => {
       color: 'hover:text-comptia',
     },
     {
-      id: 2,
+      id: 3,
       logo: LinPic,
       name: 'Linux Foundations',
       alt: 'Linux Foundations',
@@ -24,7 +33,7 @@ const Certs = () => {
       color: 'hover:text-linux',
     },
     {
-      id: 3,
+      id: 4,
       logo: ITILPIC,
       name: 'ITIL 4 Foundation',
       alt: 'ITIL 4 Foundation',

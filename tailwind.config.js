@@ -17,7 +17,8 @@ module.exports = {
         'tailwind': '#4BACB0',
         'comptia': '#E22526',
         'itil': '#8E63E5',
-        'linux': '#138BCC'
+        'linux': '#138BCC',
+        'ccna': '#015468'
       },
     },
     // colors: {
